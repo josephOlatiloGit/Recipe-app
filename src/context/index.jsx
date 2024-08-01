@@ -2,7 +2,10 @@ import { createContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 /**
- * The objective of these Static Web app project is to give idea on how to work with Routing to navigate multiple pages, How to use and create contextHook, to manage Global State, and to manage lots of functionality.
+ * The objective of these Static Web app project is to give 
+ * idea on how to work with Routing to navigate multiple pages 
+ * How to use and create contextHook, to manage Global State, 
+ * and to manage lots of functionality.
  */
 
 export const GlobalContext = createContext(null);

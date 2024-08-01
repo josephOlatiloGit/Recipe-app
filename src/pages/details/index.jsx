@@ -26,7 +26,7 @@ export default function Details() {
     getRecipeDetails();
   }, [id]);
 
-  console.log(recipeDetailsData, "recipeDetailsData");
+ 
   return (
     <div className="container mx-auto py-10 grid grid-cols-1 lg:grid-cols-2 gap-10">
       <div className="row-start-2 lg:row-start-auto">
